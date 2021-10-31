@@ -13,7 +13,7 @@ start:
         call[printf]
 
         call[getch]
-
+        push 0
         call[ExitProcess]
 
 section '.idata'import data readable
